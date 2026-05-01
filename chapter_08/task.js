@@ -36,3 +36,6 @@ console.log(suite1[0].status);
 
 // op of suite1= status:”fail” .because here deep copy is used  just assigning the values from suite1 to suite2 .
 // then updating the index[0] with status =”fail”.so we get op as op of suite1= status:”fail”
+
+let a=["10", "2", "1"].sort();
+console.log(a);

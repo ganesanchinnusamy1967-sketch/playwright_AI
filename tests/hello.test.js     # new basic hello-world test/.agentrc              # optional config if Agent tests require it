@@ -1,0 +1,18 @@
+tests/hello.test.js
+const assert = require('assert');
+test('hello world!', () => {
+	assert.strictEqual('Hello, World!', 'Hello, World!');
+});
+
+package.json
+{
+	"scripts": {
+		"test": "your-test-runner tests/*.test.js"
+	}
+}
+
+.agentrc
+{
+	"testFramework": "agent",
+	"timeout": 5000
+}

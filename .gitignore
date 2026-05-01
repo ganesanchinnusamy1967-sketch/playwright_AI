@@ -1,0 +1,14 @@
+node_modules/
+package-lock.json
+.DS_Store
+*.log
+dist/
+build/
+.env
+.env.local
+.env.*.local
+/.vscode/
+.claude/
+.playwright-cli/
+.playwright-mcp/
+test-results/

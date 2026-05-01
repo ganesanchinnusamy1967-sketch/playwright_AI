@@ -9,3 +9,5 @@ function greet(){
 //greet();// function call  pnrom
 
 let a = greet(); // ipadi panninlum op varum invoking a call
+
+

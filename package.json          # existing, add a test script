@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "test": "your-test-runner tests/*.test.js"
+  }
+}

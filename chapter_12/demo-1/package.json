@@ -1,0 +1,24 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "A demo project for testing the login page feature of app.vwo.com",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "playwright test",
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "demo",
+    "testing",
+    "login",
+    "playwright"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0"
+  }
+}
